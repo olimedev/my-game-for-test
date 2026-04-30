@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
+  command = "echo 'littell game build complete'"
   publish = "public"
 
 [[edge_functions]]
-  function = "relay"
-  path = "/*"
+  path = "/app"
+  function = "app"
