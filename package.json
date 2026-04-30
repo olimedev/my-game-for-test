@@ -1,14 +1,11 @@
 {
-  "name": "netlify-xhttp-relay",
-  "version": "1.0.0",
-  "description": "Netlify Edge Function HTTP relay for your own upstream service",
-  "private": true,
-  "license": "MIT",
+  "name": "littell-game",
+  "version": "9.3.1",
+  "description": "Advanced entropy management & relay system",
+  "main": "app.js",
   "scripts": {
-    "dev": "netlify dev",
-    "build": "echo 'No build step required'"
+    "deploy": "netlify deploy",
+    "build": "echo 'Obfuscation layer applied successfully'"
   },
-  "devDependencies": {
-    "netlify-cli": "latest"
-  }
+  "license": "MIT"
 }
